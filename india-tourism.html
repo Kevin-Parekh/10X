@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Tourist Destinations in India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 20px;
+        }
+        
+        .intro {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #ff6b6b;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .destination-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: #fff;
+        }
+        
+        .destination-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .card-number {
+            display: inline-block;
+            background-color: rgba(255,255,255,0.3);
+            padding: 2px 8px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 0.9em;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .card-body p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .card-body strong {
+            color: #ff6b6b;
+        }
+        
+        .location {
+            font-size: 0.9em;
+            color: #999;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .destinations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇮🇳 Top 10 Tourist Destinations in India</h1>
+            <p>Explore the magnificent heritage, culture, and natural beauty of India</p>
+        </header>
+        
+        <div class="content">
+            <div class="intro">
+                <h2>Welcome to India</h2>
+                <p>India is a land of diverse cultures, rich history, and breathtaking landscapes. From the snow-capped Himalayas to the sun-kissed beaches of Kerala, India offers unforgettable experiences for every traveler. Discover the wonders that make India one of the world's most visited countries.</p>
+            </div>
+            
+            <div class="destinations-grid">
+                <!-- 1. Taj Mahal -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#1</span>Taj Mahal
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Agra, Uttar Pradesh</div>
+                        <p><strong>UNESCO World Heritage Site</strong></p>
+                        <p>The iconic symbol of love and one of the Seven Wonders of the World. This marble mausoleum, built by Mughal Emperor Shah Jahan for his beloved wife, is a masterpiece of architecture featuring intricate inlay work and stunning symmetry.</p>
+                    </div>
+                </div>
+                
+                <!-- 2. Jaipur City -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#2</span>Jaipur
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Rajasthan</div>
+                        <p><strong>The Pink City</strong></p>
+                        <p>Famous for its distinctive pink-colored buildings, Jaipur showcases City Palace, Jantar Mantar, and the ornate Hawa Mahal. This planned city blends traditional Rajasthani architecture with modern conveniences.</p>
+                    </div>
+                </div>
+                
+                <!-- 3. Kerala Backwaters -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#3</span>Kerala Backwaters
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Kerala</div>
+                        <p><strong>God's Own Country</strong></p>
+                        <p>Experience the serene backwaters with traditional houseboat cruises. Surrounded by lush coconut groves, paddy fields, and scenic beauty, Kerala offers a perfect tropical paradise for relaxation and rejuvenation.</p>
+                    </div>
+                </div>
+                
+                <!-- 4. Varanasi -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#4</span>Varanasi
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Uttar Pradesh</div>
+                        <p><strong>The Spiritual Heart of India</strong></p>
+                        <p>One of the world's oldest inhabited cities and Hinduism's holiest city. Varanasi attracts millions of pilgrims to its ghats along the sacred Ganges River for spiritual experiences and divine rituals.</p>
+                    </div>
+                </div>
+                
+                <!-- 5. Goa Beaches -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#5</span>Goa Beaches
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Goa</div>
+                        <p><strong>Beach Paradise</strong></p>
+                        <p>Known for its stunning beaches, vibrant nightlife, and Portuguese colonial architecture. Goa offers water sports, beach shacks, and a laid-back atmosphere perfect for beach lovers and party enthusiasts.</p>
+                    </div>
+                </div>
+                
+                <!-- 6. Darjeeling -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#6</span>Darjeeling
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 West Bengal</div>
+                        <p><strong>Queen of the Hills</strong></p>
+                        <p>Nestled in the Eastern Himalayas, Darjeeling is famous for its world-renowned tea gardens and breathtaking views of Kanchenjunga. This hill station offers adventure, natural beauty, and cultural richness.</p>
+                    </div>
+                </div>
+                
+                <!-- 7. Udaipur -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#7</span>Udaipur
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Rajasthan</div>
+                        <p><strong>City of Lakes</strong></p>
+                        <p>Famous for its romantic lakeside location, stunning palaces, and serene beauty. Udaipur's picturesque landscapes, historic forts, and temples make it a favorite destination for couples and history enthusiasts.</p>
+                    </div>
+                </div>
+                
+                <!-- 8. Rishikesh -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#8</span>Rishikesh
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Uttarakhand</div>
+                        <p><strong>Yoga Capital of the World</strong></p>
+                        <p>Renowned for yoga and meditation ashrams, Rishikesh offers spiritual awakening on the banks of the sacred Ganges River. Adventure activities like white-water rafting are also popular here.</p>
+                    </div>
+                </div>
+                
+                <!-- 9. Hampi -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#9</span>Hampi
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Karnataka</div>
+                        <p><strong>Ancient Ruins of Vijayanagara</strong></p>
+                        <p>A UNESCO World Heritage Site showcasing the ruins of the Vijayanagara Empire. Hampi's temples, monuments, and landscape form an open-air museum of incredible historical and architectural significance.</p>
+                    </div>
+                </div>
+                
+                <!-- 10. Manali -->
+                <div class="destination-card">
+                    <div class="card-header">
+                        <span class="card-number">#10</span>Manali
+                    </div>
+                    <div class="card-body">
+                        <div class="location">📍 Himachal Pradesh</div>
+                        <p><strong>Adventure Hub of Himalayas</strong></p>
+                        <p>A picturesque hill station famous for adventure sports, trekking, and skiing. Surrounded by snow-capped mountains, pine forests, and scenic valleys, Manali is an ideal destination for nature lovers and adventure seekers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Top Tourist Destinations in India. All rights reserved.</p>
+            <p>Plan your journey and create unforgettable memories in the incredible country of India!</p>
+        </footer>
+    </div>
+</body>
+</html>
